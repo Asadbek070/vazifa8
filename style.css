@@ -1,0 +1,29 @@
+.box1{
+    display: grid;
+    background-color: purple;
+    width: 150px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    background-color: blue;
+    display: grid;
+    width: 150px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(10px);
+}
+.box3{
+    display: grid;
+    background-color: red;
+    width: 150px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50px,20px);
+}
+.container{
+    margin: 80px 180px;
+}
